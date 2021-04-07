@@ -77,7 +77,6 @@ def main():
 
     ## se não existir args nem parametros faz a pesquisa sem argumentos
     else:
-        print("caiu no else")
         argregex = re.compile(r'{}'.format(regex_word))
 
     ## codigo input e stdin
@@ -94,7 +93,7 @@ def main():
                 print("check")
                 ## codigo de request (endpoint)
                 ## url como string para o integrador com a informação que precisamos
-                print(line)
+            print(line)
     return 0
 
 if __name__ == '__main__':
